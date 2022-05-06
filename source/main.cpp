@@ -120,16 +120,13 @@ int main()
 
     EEPROMExample example(NFCqueue, eeprom_driver);
 
-    //ultrasonic ultra(TRIG, ECHO, 1000, 1000);
+    ultrasonic ultra(TRIG, ECHO, 1000, 1000);
     EventQueue HCSR04queue;
     HCSR04 ultra(TRIG, ECHO, HCSR04queue);
 
     example.run();
     NFCqueue.dispatch_forever();
-
     ultra.run();
-    
-    HCSR04queue.dispatch_forever();
-    return 0;
+    while(1);
 }
 

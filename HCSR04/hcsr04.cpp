@@ -74,16 +74,17 @@ unsigned int HCSR04::get_pulse_us()
 }
 void HCSR04::update()
 {
-    printf("flag");
+    printf("flag\n");
     start();
     wait_us(500);
     printf("Distance: %d", get_dist_cm());
-    ThisThread::sleep_for(1000);  
+    ThisThread::sleep_for(1000);
 }
 void HCSR04::run()
 {
-    printf("flag2");
-    q.call(callback(this, &HCSR04::update));
+    printf("flag2\n");
+    q.call_every(1000, callback(this, &HCSR04::update));
+    q.dispatch_forever();
 }
 
 

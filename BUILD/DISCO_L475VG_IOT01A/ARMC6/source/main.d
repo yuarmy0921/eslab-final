@@ -11,68 +11,11 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/source/main.o: source/main.cpp \
   mbed-os/platform/cxxsupport/mstd_memory \
   mbed-os/platform/cxxsupport/mstd_utility \
   mbed-os/platform/cxxsupport/mstd_iterator \
-  mbed-os/events/include/events/EventQueue.h \
-  mbed-os/events/include/events/equeue.h \
-  mbed-os/events/include/events/internal/equeue_platform.h \
-  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/cmsis_os2.h \
-  mbed-os/rtos/include/rtos/internal/mbed_rtos_storage.h \
-  mbed-os/cmsis/device/rtos/include/mbed_rtx_storage.h \
-  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include/rtx_os.h \
-  mbed-os/cmsis/device/rtos/include/mbed_rtx_conf.h \
-  mbed-os/targets/TARGET_STM/mbed_rtx.h \
-  mbed-os/platform/include/platform/NonCopyable.h \
-  mbed-os/connectivity/nfc/include/nfc/ndef/MessageBuilder.h \
-  mbed-os/platform/include/platform/Span.h \
-  mbed-os/connectivity/nfc/include/nfc/ndef/Record.h \
-  mbed-os/connectivity/nfc/include/nfc/ndef/common/URI.h \
-  mbed-os/connectivity/nfc/include/nfc/ndef/RecordParser.h \
-  mbed-os/connectivity/nfc/include/nfc/ndef/common/util.h \
-  mbed-os/connectivity/nfc/include/nfc/NFCEEPROM.h \
-  mbed-os/connectivity/nfc/include/nfc/NFCDefinitions.h \
-  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h \
-  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer.h \
-  mbed-os/connectivity/nfc/include/nfc/NFCTarget.h \
-  mbed-os/connectivity/nfc/include/nfc/NFCNDEFCapable.h \
-  mbed-os/connectivity/nfc/libraries/stack/ndef/ndef.h \
-  mbed-os/connectivity/nfc/libraries/stack/nfc_common.h \
-  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_debug.h \
-  mbed-os/connectivity/nfc/libraries/acore/acore/ac_macros.h \
-  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_reader.h \
-  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_builder.h \
-  mbed-os/connectivity/nfc/libraries/acore/acore/ac_stream.h \
-  mbed-os/connectivity/nfc/include/nfc/NFCEEPROMDriver.h \
-  EEPROMDriver/EEPROMDriver.h HC_SR04_Ultrasonic_Library/ultrasonic.h \
-  mbed-os/mbed.h mbed-os/platform/include/platform/mbed_version.h \
-  mbed-os/rtos/include/rtos/rtos.h mbed-os/rtos/include/rtos/Kernel.h \
-  mbed-os/rtos/include/rtos/mbed_rtos_types.h \
-  mbed-os/rtos/include/rtos/Thread.h \
-  mbed-os/rtos/include/rtos/internal/mbed_rtos1_types.h \
-  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include1/cmsis_os.h \
-  mbed-os/rtos/include/rtos/Semaphore.h \
-  mbed-os/rtos/include/rtos/Mutex.h \
-  mbed-os/platform/include/platform/ScopedLock.h \
-  mbed-os/rtos/include/rtos/ThisThread.h \
-  mbed-os/rtos/include/rtos/Mail.h mbed-os/rtos/include/rtos/Queue.h \
-  mbed-os/platform/include/platform/mbed_error.h \
+  mbed-os/drivers/include/drivers/DigitalOut.h \
+  mbed-os/platform/include/platform/platform.h \
   mbed-os/platform/include/platform/mbed_retarget.h \
-  mbed-os/rtos/include/rtos/MemoryPool.h \
-  mbed-os/rtos/include/rtos/EventFlags.h \
-  mbed-os/rtos/include/rtos/ConditionVariable.h \
-  mbed-os/connectivity/netsocket/include/netsocket/nsapi.h \
-  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \
-  mbed-os/connectivity/netsocket/include/netsocket/SocketAddress.h \
-  mbed-os/connectivity/netsocket/include/netsocket/NetworkStack.h \
-  mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h \
-  mbed-os/connectivity/netsocket/include/netsocket/DNS.h \
-  mbed-os/connectivity/netsocket/include/netsocket/EthInterface.h \
-  mbed-os/connectivity/netsocket/include/netsocket/WiFiInterface.h \
-  mbed-os/connectivity/netsocket/include/netsocket/WiFiAccessPoint.h \
-  mbed-os/connectivity/netsocket/include/netsocket/CellularInterface.h \
-  mbed-os/connectivity/netsocket/include/netsocket/MeshInterface.h \
-  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \
-  mbed-os/connectivity/netsocket/include/netsocket/UDPSocket.h \
-  mbed-os/connectivity/netsocket/include/netsocket/InternetSocket.h \
-  mbed-os/platform/include/platform/mbed_atomic.h \
+  mbed-os/targets/TARGET_STM/device.h \
+  mbed-os/targets/TARGET_STM/TARGET_STM32L4/objects.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/cmsis.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/CMSIS/stm32l4xx.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/CMSIS/stm32l475xx.h \
@@ -157,13 +100,6 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/source/main.o: source/main.cpp \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_usart_ex.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_hal_wwdg.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L475xG/cmsis_nvic.h \
-  mbed-os/platform/include/platform/internal/mbed_atomic_impl.h \
-  mbed-os/connectivity/netsocket/include/netsocket/SocketStats.h \
-  mbed-os/platform/include/platform/SingletonPtr.h \
-  mbed-os/platform/include/platform/PlatformMutex.h \
-  mbed-os/hal/include/hal/ticker_api.h \
-  mbed-os/targets/TARGET_STM/device.h \
-  mbed-os/targets/TARGET_STM/TARGET_STM32L4/objects.h \
   mbed-os/targets/TARGET_STM/PortNames.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/PeripheralNames.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/TARGET_STM32L475xG/TARGET_DISCO_L475VG_IOT01A/PinNames.h \
@@ -178,6 +114,79 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/source/main.o: source/main.cpp \
   mbed-os/targets/TARGET_STM/us_ticker_defines.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/us_ticker_data.h \
   mbed-os/targets/TARGET_STM/lp_ticker_defines.h \
+  mbed-os/hal/include/hal/PinNameAliases.h \
+  mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalOut.h \
+  mbed-os/hal/include/hal/gpio_api.h mbed-os/hal/include/hal/pinmap.h \
+  mbed-os/events/include/events/EventQueue.h \
+  mbed-os/events/include/events/equeue.h \
+  mbed-os/events/include/events/internal/equeue_platform.h \
+  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/Include/cmsis_os2.h \
+  mbed-os/rtos/include/rtos/internal/mbed_rtos_storage.h \
+  mbed-os/cmsis/device/rtos/include/mbed_rtx_storage.h \
+  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include/rtx_os.h \
+  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include/rtx_def.h \
+  mbed-os/cmsis/device/RTE/include/RTE_Components.h \
+  mbed-os/cmsis/device/rtos/include/mbed_rtx_conf.h \
+  mbed-os/targets/TARGET_STM/mbed_rtx.h \
+  mbed-os/cmsis/device/mbed_cmsis_conf.h \
+  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Config/RTX_Config.h \
+  mbed-os/platform/include/platform/NonCopyable.h \
+  mbed-os/connectivity/nfc/include/nfc/ndef/MessageBuilder.h \
+  mbed-os/platform/include/platform/Span.h \
+  mbed-os/connectivity/nfc/include/nfc/ndef/Record.h \
+  mbed-os/connectivity/nfc/include/nfc/ndef/common/URI.h \
+  mbed-os/connectivity/nfc/include/nfc/ndef/RecordParser.h \
+  mbed-os/connectivity/nfc/include/nfc/ndef/common/util.h \
+  mbed-os/connectivity/nfc/include/nfc/NFCEEPROM.h \
+  mbed-os/connectivity/nfc/include/nfc/NFCDefinitions.h \
+  mbed-os/connectivity/nfc/libraries/stack/nfc_errors.h \
+  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer.h \
+  mbed-os/connectivity/nfc/include/nfc/NFCTarget.h \
+  mbed-os/connectivity/nfc/include/nfc/NFCNDEFCapable.h \
+  mbed-os/connectivity/nfc/libraries/stack/ndef/ndef.h \
+  mbed-os/connectivity/nfc/libraries/stack/nfc_common.h \
+  mbed-os/connectivity/nfc/libraries/stack/platform/nfc_debug.h \
+  mbed-os/connectivity/nfc/libraries/acore/acore/ac_macros.h \
+  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_reader.h \
+  mbed-os/connectivity/nfc/libraries/acore/acore/ac_buffer_builder.h \
+  mbed-os/connectivity/nfc/libraries/acore/acore/ac_stream.h \
+  mbed-os/connectivity/nfc/include/nfc/NFCEEPROMDriver.h \
+  EEPROMDriver/EEPROMDriver.h HC_SR04_Ultrasonic_Library/ultrasonic.h \
+  mbed-os/mbed.h mbed-os/platform/include/platform/mbed_version.h \
+  mbed-os/rtos/include/rtos/rtos.h mbed-os/rtos/include/rtos/Kernel.h \
+  mbed-os/rtos/include/rtos/mbed_rtos_types.h \
+  mbed-os/rtos/include/rtos/Thread.h \
+  mbed-os/rtos/include/rtos/internal/mbed_rtos1_types.h \
+  mbed-os/cmsis/CMSIS_5/CMSIS/RTOS2/RTX/Include1/cmsis_os.h \
+  mbed-os/rtos/include/rtos/Semaphore.h \
+  mbed-os/rtos/include/rtos/Mutex.h \
+  mbed-os/platform/include/platform/ScopedLock.h \
+  mbed-os/rtos/include/rtos/ThisThread.h \
+  mbed-os/rtos/include/rtos/Mail.h mbed-os/rtos/include/rtos/Queue.h \
+  mbed-os/platform/include/platform/mbed_error.h \
+  mbed-os/rtos/include/rtos/MemoryPool.h \
+  mbed-os/rtos/include/rtos/EventFlags.h \
+  mbed-os/rtos/include/rtos/ConditionVariable.h \
+  mbed-os/connectivity/netsocket/include/netsocket/nsapi.h \
+  mbed-os/connectivity/netsocket/include/netsocket/nsapi_types.h \
+  mbed-os/connectivity/netsocket/include/netsocket/SocketAddress.h \
+  mbed-os/connectivity/netsocket/include/netsocket/NetworkStack.h \
+  mbed-os/connectivity/netsocket/include/netsocket/NetworkInterface.h \
+  mbed-os/connectivity/netsocket/include/netsocket/DNS.h \
+  mbed-os/connectivity/netsocket/include/netsocket/EthInterface.h \
+  mbed-os/connectivity/netsocket/include/netsocket/WiFiInterface.h \
+  mbed-os/connectivity/netsocket/include/netsocket/WiFiAccessPoint.h \
+  mbed-os/connectivity/netsocket/include/netsocket/CellularInterface.h \
+  mbed-os/connectivity/netsocket/include/netsocket/MeshInterface.h \
+  mbed-os/connectivity/netsocket/include/netsocket/Socket.h \
+  mbed-os/connectivity/netsocket/include/netsocket/UDPSocket.h \
+  mbed-os/connectivity/netsocket/include/netsocket/InternetSocket.h \
+  mbed-os/platform/include/platform/mbed_atomic.h \
+  mbed-os/platform/include/platform/internal/mbed_atomic_impl.h \
+  mbed-os/connectivity/netsocket/include/netsocket/SocketStats.h \
+  mbed-os/platform/include/platform/SingletonPtr.h \
+  mbed-os/platform/include/platform/PlatformMutex.h \
+  mbed-os/hal/include/hal/ticker_api.h \
   mbed-os/connectivity/netsocket/include/netsocket/InternetDatagramSocket.h \
   mbed-os/connectivity/netsocket/include/netsocket/ICMPSocket.h \
   mbed-os/connectivity/netsocket/include/netsocket/TCPSocket.h \
@@ -214,8 +223,6 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/source/main.o: source/main.cpp \
   mbed-os/connectivity/netsocket/include/netsocket/nsapi_ppp.h \
   mbed-os/platform/include/platform/FileHandle.h \
   mbed-os/platform/include/platform/mbed_poll.h \
-  mbed-os/platform/include/platform/platform.h \
-  mbed-os/hal/include/hal/PinNameAliases.h \
   mbed-os/events/include/events/mbed_events.h \
   mbed-os/events/include/events/Event.h \
   mbed-os/events/include/events/UserAllocatedEvent.h \
@@ -237,9 +244,6 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/source/main.o: source/main.cpp \
   mbed-os/platform/include/platform/mbed_debug.h \
   mbed-os/drivers/include/drivers/DigitalIn.h \
   mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalIn.h \
-  mbed-os/hal/include/hal/gpio_api.h mbed-os/hal/include/hal/pinmap.h \
-  mbed-os/drivers/include/drivers/DigitalOut.h \
-  mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalOut.h \
   mbed-os/drivers/include/drivers/DigitalInOut.h \
   mbed-os/drivers/include/drivers/interfaces/InterfaceDigitalInOut.h \
   mbed-os/drivers/include/drivers/BusIn.h \

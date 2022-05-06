@@ -3,6 +3,8 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/mbed-os/features/frameworks/greentea-client/sour
   BUILD/DISCO_L475VG_IOT01A/ARMC6/mbed_config.h \
   mbed-os/features/frameworks/greentea-client/greentea-client/test_env.h \
   mbed-os/features/frameworks/greentea-client/greentea-client/greentea_metrics.h \
+  mbed-os/platform/include/platform/mbed_toolchain.h \
+  mbed-os/platform/include/platform/mbed_preprocessor.h \
   mbed-os/platform/include/platform/mbed_stats.h \
   mbed-os/hal/include/hal/ticker_api.h \
   mbed-os/targets/TARGET_STM/device.h \
@@ -97,8 +99,6 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/mbed-os/features/frameworks/greentea-client/sour
   mbed-os/targets/TARGET_STM/PinNamesTypes.h \
   mbed-os/targets/TARGET_STM/gpio_object.h \
   mbed-os/platform/include/platform/mbed_assert.h \
-  mbed-os/platform/include/platform/mbed_toolchain.h \
-  mbed-os/platform/include/platform/mbed_preprocessor.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_usart.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_lpuart.h \
   mbed-os/targets/TARGET_STM/TARGET_STM32L4/STM32Cube_FW/STM32L4xx_HAL_Driver/stm32l4xx_ll_tim.h \

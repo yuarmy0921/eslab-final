@@ -19,6 +19,7 @@ BUILD/DISCO_L475VG_IOT01A/ARMC6/mbed-os/connectivity/nanostack/coap-service/sour
   mbed-os/connectivity/nanostack/coap-service/source/include/coap_connection_handler.h \
   mbed-os/connectivity/nanostack/coap-service/source/include/coap_service_api_internal.h \
   mbed-os/connectivity/nanostack/coap-service/source/include/coap_security_handler.h \
+  mbed-os/connectivity/mbedtls/include/mbedtls/version.h \
   mbed-os/connectivity/mbedtls/include/mbedtls/config.h \
   mbed-os/connectivity/mbedtls/platform/inc/platform_mbed.h \
   mbed-os/connectivity/mbedtls/include/mbedtls/check_config.h \

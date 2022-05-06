@@ -1,0 +1,7 @@
+BUILD
+.mbed
+mbed-os
+HC_SR04_Ultrasonic_Library
+HCSR04
+EEPROMDriver/target/TARGET_NT3H2111/eeprom_driver
+EEPROMDriver/target/TARGET_ST25DV/eeprom_driver
